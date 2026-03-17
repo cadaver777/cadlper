@@ -4,7 +4,7 @@
 
   const PATTERNS = [
     {
-      name: "Azerbaijan FIN code",
+      name: " PIN code",
       regex: /\b[A-Z0-9]{7}\b/g,
       severity: "high"
     },
@@ -20,7 +20,7 @@
     },
     {
       name: "Salary keyword",
-      regex: /\bmaa[sş]\b/gi,
+      regex: /\bsalary\b/gi,
       severity: "high"
     }
   ];
