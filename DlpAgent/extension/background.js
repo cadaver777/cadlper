@@ -6,7 +6,7 @@ function connectNative() {
   }
 
   try {
-    nativePort = chrome.runtime.connectNative("com.dlp.agent");
+    nativePort = chrome.runtime.connectNative("com.cadlper.agent");
 
     nativePort.onMessage.addListener((msg) => {
       console.log("Native host response:", msg);
